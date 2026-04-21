@@ -1,0 +1,5 @@
+# Temporary exploration / scratch scripts
+scripts/_tmp_*
+
+# Old reference template (not TX-specific)
+source/NOPD.json
