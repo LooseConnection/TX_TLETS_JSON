@@ -1,5 +1,12 @@
-# Temporary exploration / scratch scripts
+# Claude Code local settings
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary scripts
 scripts/_tmp_*
 
-# Old reference template (not TX-specific)
+# Reference templates (not provider-specific)
 source/NOPD.json
