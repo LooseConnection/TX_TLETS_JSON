@@ -4543,7 +4543,7 @@
           "provider": "TX_TLETS",
           "providerType": "Commsys",
           "query": "ArticleSingleQuery",
-          "queryLabel": "Article Query",
+          "queryLabel": "Article",
           "targetEntity": "Article",
           "attributes": [
             {
@@ -4627,7 +4627,7 @@
           "provider": "TX_TLETS",
           "providerType": "Commsys",
           "query": "BoatQuery",
-          "queryLabel": "Boat Query",
+          "queryLabel": "Boat",
           "targetEntity": "Boat",
           "attributes": [
             {
@@ -4759,7 +4759,7 @@
           "provider": "TX_TLETS",
           "providerType": "Commsys",
           "query": "GunQuery",
-          "queryLabel": "Firearm Query",
+          "queryLabel": "Firearm",
           "targetEntity": "Firearm",
           "attributes": [
             {
