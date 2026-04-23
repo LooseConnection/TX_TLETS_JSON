@@ -1,6 +1,6 @@
 TX_TLETS -- Build Status
 ========================
-Last updated: 2026-04-21
+Last updated: 2026-04-23
 Current version: 1.0 (Phase 1 -- initial standup)
 Provider: TX_TLETS
 Phase: 01_standup (initial JSON, not yet tested)
@@ -69,6 +69,15 @@ Format: [PASS] / [FAIL] / [PENDING]
   BOA-2: Boat Query (Hull)                     CommSys         [PENDING]
 
 BUILD LOG (newest first)
+  v1.0  2026-04-23  queryLabel fixes -- direct JSON edit (no rebuild)
+    Change: ArticleSingleQuery "Article Query" -> "Article"
+            BoatQuery          "Boat Query"    -> "Boat"
+            GunQuery           "Firearm Query" -> "Firearm"
+    Reason: KB queryLabel standard -- label by what officer searches for.
+            Confirmed standard applied across all providers (AZ, FL, NY, TX) 2026-04-23.
+    File: TX_TLETS_BASE.json (root)
+    Committed and pushed to master.
+
   v1.0  2026-04-21  Initial standup -- TX_TLETS.json imported into project structure
     Output : C:\Users\Gordon Hallof\TX_TLETS\TX_TLETS.json
     Archive: C:\Users\Gordon Hallof\TX_TLETS\phases\01_standup\TX_TLETS_v1.0_2026-04-21.json

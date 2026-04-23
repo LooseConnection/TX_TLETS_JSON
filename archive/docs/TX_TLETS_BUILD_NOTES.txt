@@ -5,6 +5,20 @@ State: Texas
 Network: TLETS (Texas Law Enforcement Telecommunications System)
 
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+2026-04-23  queryLabel standardization (direct JSON edit)
+--------------------------------------------------------------------------------
+CHANGED : ArticleSingleQuery "Article Query"->"Article", BoatQuery "Boat Query"->"Boat",
+          GunQuery "Firearm Query"->"Firearm".
+REASON  : KB queryLabel standard adopted across all providers. Labels must describe
+          what the officer searches for, not append "Query" or use system names.
+          Standard: VehicleRegistrationQuery="Vehicle Registration",
+          DriverLicenseQuery="Driver License", GunQuery="Firearm",
+          ArticleSingleQuery="Article", BoatQuery="Boat".
+          Applied to AZ, FL, NY, TX in same session.
+SCOPE   : TX_TLETS_BASE.json queryLabel fields only. No rebuild, no QIDM changes.
+
+--------------------------------------------------------------------------------
 v1.0  2026-04-21
 --------------------------------------------------------------------------------
 CHANGED : Initial project standup. TX_TLETS.json placed into structured repo.
