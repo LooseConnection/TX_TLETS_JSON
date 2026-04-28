@@ -14,6 +14,11 @@ This build has **open issues** that must be resolved before import. See below.
 
 BASE is **REVIEWED** but has known issues. Build script is a stub (needs completion).
 
+## Recent Changes (2026-04-28)
+
+- New HIDLE.json ingested — adds null `conditions`/`defaults` to RMS combo requirements (no-op)
+- JSON not yet rebuilt with new HIDLE (build script needs completion first)
+
 ## Open Issues
 
 1. **Build script is a stub** — `scripts/build_tx_tlets.ps1` has placeholder text and hardcoded path (`C:\Users\Gordon Hallof\TX_TLETS`). Needs to be completed following the AZ_AZDPS or NJ_NJCJIS build script pattern. Update path to use `$PSScriptRoot`.
